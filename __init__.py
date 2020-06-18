@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect
 import pandas as pd
-from Milestone4 import getRegressionFunction
+from gp.Milestone4 import getRegressionFunction
 
 ALLOWED_EXTENSIONS = {'csv'}
 
